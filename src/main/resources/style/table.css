@@ -1,0 +1,25 @@
+
+.table-cell {
+    -fx-alignment: CENTER;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+
+.table-view .column-header {
+    -fx-alignment: CENTER;
+    -fx-font-weight: bold;
+}
+
+
+.table-view .image-cell {
+    -fx-alignment: CENTER;
+}
+#location-column .table-cell {
+    -fx-font-size: 12px;
+    -fx-alignment: CENTER;
+    -fx-wrap-text: true;
+}
+
+
+

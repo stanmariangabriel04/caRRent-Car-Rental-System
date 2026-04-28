@@ -1,0 +1,7 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #e0e0e0, #ffffff); /* gradient subtil */
+    -fx-background-image: url("/images/background.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: left bottom; /* imaginea în colțul stânga jos */
+    -fx-background-size: auto; /* păstrează proporțiile imaginii */
+}
