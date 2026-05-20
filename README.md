@@ -50,27 +50,17 @@ git clone https://github.com/stanmariangabriel04/caRRent-Car-Rental-System
 
 2. Create a PostgreSQL database named `carrental`
 
-3. Update database connection details in `DBUtils.java`:
+3. Open your pgAdmin (or any SQL client) and run the entire script found in the schema.sql file located in the root of this project. This will automatically create the tables and insert sample cars.
+
+4. Update database connection details in `DBUtils.java`:
 
 String url = "jdbc:postgresql://localhost:5432/carrental";
 String user = "your_username";
 String password = "your_password";
 
+
+
 4. Run the application from `Main.java`
-
-## Database example
-
-Example table for users:
-
-CREATE TABLE users (
-id SERIAL PRIMARY KEY,
-username VARCHAR(50) UNIQUE NOT NULL,
-password VARCHAR(100) NOT NULL,
-first_name VARCHAR(50),
-last_name VARCHAR(50),
-email VARCHAR(100),
-phone VARCHAR(20)
-);
 
 ## Notes
 
